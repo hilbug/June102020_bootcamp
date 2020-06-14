@@ -9,12 +9,16 @@ body {
     line-height: 150%;
     color: #333 
     */
+    font-size: 18px;
+    line-height: 150%;
 }
 
-/* header { background: #333; } */
+header {
+    background: #333; 
+}
 
 h1 {
-    background-color: #333333;
+    /* background-color: #333333; */
     color: #eee;
     font-size: 28px;
     padding: 15px;
@@ -22,6 +26,10 @@ h1 {
     /* padding: 20px 0; */
     /* margin: 0; */
     /* margin-bottom: 20px; */
+    /* no background-color - see header */
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -30,7 +38,8 @@ h2 {
 }
 
 /* why .container { */
-div.container {
+/* div.container { */
+.container {
     width: 1024px;
     margin: 0 auto;
 }
@@ -44,6 +53,7 @@ div.container {
     /* height: 200px; */
     margin-right: 15px;
     /* margin-right: 20px; */
+    /* why does image use margin and h1 uses padding? */
 }
 
 #main-bio {
@@ -52,7 +62,7 @@ div.container {
 
 #contact-info {
     width: 30%;
-    line-height: 150%;
+    /* line-height: 150%; */
     /* line-height not here but in body */
 }
 
